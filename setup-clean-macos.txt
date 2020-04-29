@@ -1,0 +1,83 @@
+https://wsvincent.com/install-python3-mac/
+
+Homebrew
+--------
+xcode-select --install
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew doctor
+
+You should see: "Your system is ready to brew."
+
+Git
+---
+git --version 		#git from macos
+brew install Git
+git --version		#latest git
+brew install git-lfs
+
+Clone dialysis repo
+-------------------
+*** make sure you have installed git-lfs successfuly BEFORE this step!
+cd <development root> for me it is ~/Dev/
+copy the git clone URL from bitbucket, it looks something like:
+git clone https://mannykao2@bitbucket.org/andychen1981/dialysis.git
+
+cd dialysis/audio4video
+ls -l data/test_data/train_3s
+
+The .wav files should all be 24044 bytes long. If the files are tiny (like 2k or less)
+that means you did not install git-lfs. The wave files are pointers only.
+
+Python
+------
+brew install python3
+python3 --version
+which python
+You should see: "Python 3.7.2" in /usr/local/bin
+
+virtualenv
+----------
+*** mkdir ~/.virtualenvs *** MacBook don't do this
+
+python3 -m venv ~/.virtualenvs/venv 
+source ~/.virtualenvs/venv/bin/activate
+
+You should see: (venv) $
+
+which python
+You should see: ~/.virtualenvs/venv/bin/python
+
+libomp
+------
+*** libomop is needed by 'lightGBM' - 
+brew install libomp	
+*** OR For update 
+brew reinstall libomp 	
+
+Use pip to install needed packages into 'env'
+-----------------------------------------------
+# brew install portaudio
+pip install -r requirements.txt
+
+
+To run
+------
+You can use either 'python3' or 'python' since they are linked to be the same executable now:
+python3 testFeatures.py
+python3 processWav.py 
+or
+python3 testFeatures.py
+python processWav.py 
+python testModel.py
+
+Exit 'myenv'
+------------
+deactivate
+
+*** Re-login
+python3 -m venv ~/.virtualenvs/myvenv 
+source ~/.virtualenvs/myvenv/bin/activate
+
+python3 processWav.py *** AttributeError: module 'pyutils.dictutils' has no attribute 'dict_sub'
+
+python testModel.py

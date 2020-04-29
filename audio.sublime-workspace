@@ -1,0 +1,1009 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"result_by_case"
+			],
+			[
+				"o",
+				"ouridx"
+			],
+			[
+				"pre",
+				"prediction"
+			],
+			[
+				"te",
+				"test_files"
+			],
+			[
+				"test",
+				"test_files"
+			],
+			[
+				"tr",
+				"train_d_idx"
+			],
+			[
+				"featu",
+				"feature_table"
+			],
+			[
+				"class",
+				"class_weight"
+			],
+			[
+				"dic",
+				"dictutils"
+			],
+			[
+				"dict",
+				"dict_compare"
+			],
+			[
+				"cv",
+				"cv_result"
+			],
+			[
+				"best",
+				"best_score"
+			],
+			[
+				"avg",
+				"avg_val"
+			],
+			[
+				"fe",
+				"feature_table"
+			],
+			[
+				"feature",
+				"featurecache"
+			],
+			[
+				"f",
+				"featurecache"
+			],
+			[
+				"in",
+				"insert"
+			],
+			[
+				"Feature",
+				"featureCache"
+			],
+			[
+				"k",
+				"kMT"
+			],
+			[
+				"hear",
+				"heartSoundDb"
+			],
+			[
+				"ad",
+				"add_argument"
+			],
+			[
+				"s",
+				"shape"
+			],
+			[
+				"chec",
+				"checksums"
+			],
+			[
+				"lab",
+				"labels_sorted"
+			],
+			[
+				"_l",
+				"_labels"
+			],
+			[
+				"fil",
+				"filelist_sorted"
+			],
+			[
+				"sor",
+				"labels_sorted"
+			],
+			[
+				"fi",
+				"filelist_sorted"
+			],
+			[
+				"d",
+				"datadir"
+			],
+			[
+				"ch",
+				"checksums"
+			],
+			[
+				"_",
+				"_checksums"
+			],
+			[
+				"chek",
+				"checksums"
+			],
+			[
+				"check",
+				"checksums"
+			],
+			[
+				"cla",
+				"classifer"
+			],
+			[
+				"m",
+				"model"
+			],
+			[
+				"pl",
+				"plot_roc"
+			],
+			[
+				"roc",
+				"roc_auc"
+			],
+			[
+				"pa",
+				"pass_n"
+			],
+			[
+				"im",
+				"imblearn"
+			],
+			[
+				"prob",
+				"predict_proba"
+			],
+			[
+				"par",
+				"param_x2"
+			],
+			[
+				"mod",
+				"modelname"
+			],
+			[
+				"cu",
+				"current_signal"
+			],
+			[
+				"train",
+				"train_l"
+			],
+			[
+				"be",
+				"best_cls"
+			],
+			[
+				"t",
+				"train_l"
+			],
+			[
+				"learn",
+				"learning_rate"
+			],
+			[
+				"cls",
+				"cls_name"
+			],
+			[
+				"train_",
+				"train_l"
+			],
+			[
+				"th",
+				"thresholds"
+			],
+			[
+				"classi",
+				"classifiers"
+			],
+			[
+				"num",
+				"num_round"
+			],
+			[
+				"labe",
+				"label2str"
+			],
+			[
+				"i",
+				"indices"
+			],
+			[
+				"fold",
+				"folder_exclude_patterns"
+			],
+			[
+				"wa",
+				"wavarr"
+			],
+			[
+				"ex",
+				"exclude"
+			],
+			[
+				"w",
+				"wavefile"
+			],
+			[
+				"data",
+				"datafolder"
+			],
+			[
+				"pe",
+				"property\tNew Property"
+			],
+			[
+				"def",
+				"defaultdict"
+			],
+			[
+				"label",
+				"labels"
+			],
+			[
+				"csv",
+				"csvname"
+			],
+			[
+				"wave",
+				"wavedir"
+			],
+			[
+				"fo",
+				"fourier"
+			],
+			[
+				"wav",
+				"wavefile"
+			],
+			[
+				"n",
+				"ngoodrow"
+			],
+			[
+				"p",
+				"phoneindex"
+			],
+			[
+				"fie",
+				"fieldlist"
+			],
+			[
+				"try",
+				"trygetfield"
+			],
+			[
+				"v",
+				"verify"
+			],
+			[
+				"field",
+				"fieldlist"
+			],
+			[
+				"pp",
+				"pprint"
+			],
+			[
+				"input",
+				"inputshape"
+			],
+			[
+				"c",
+				"catmap"
+			],
+			[
+				"get",
+				"get_default_graph"
+			],
+			[
+				"bo",
+				"bottleneckMgr"
+			],
+			[
+				"tota",
+				"totaliotime"
+			],
+			[
+				"filena",
+				"filenames"
+			],
+			[
+				"cach",
+				"cachefolder"
+			],
+			[
+				"is",
+				"istraining"
+			],
+			[
+				"_b",
+				"_bottleneck_tensor"
+			],
+			[
+				"mod_",
+				"mod_depth"
+			],
+			[
+				"batch",
+				"batchsize"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "processWav.py",
+			"settings":
+			{
+				"buffer_size": 4678,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "heartSound.py",
+			"settings":
+			{
+				"buffer_size": 9978,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "train.py",
+			"settings":
+			{
+				"buffer_size": 11621,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "testModel.py",
+			"settings":
+			{
+				"buffer_size": 2885,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "hyperparams.py",
+			"settings":
+			{
+				"buffer_size": 6420,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "kevin.py",
+			"settings":
+			{
+				"buffer_size": 1973,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Dev/Medical/dialysis/audio4video"
+	],
+	"file_history":
+	[
+		"/D/Dev/ML/stats/interpretable-test/ipynb/gen_figures.ipynb",
+		"/D/Dev/Medical/dialysis/audio4video/extractFeatures.py",
+		"/D/Dev/Medical/dialysis/audio4video/testModel.py",
+		"/D/Dev/Medical/dialysis/audio4video/output/mylogfile.txt",
+		"/C/Users/manny/Downloads/My Collection.xml",
+		"/D/Dev/Medical/dialysis/audio4video/kevin.py",
+		"/D/BWNC/GWBI/gwbi/.gitignore",
+		"/D/Dev/Medical/dialysis/audio4video/stats/roc.py",
+		"/D/Dev/Medical/dialysis/audio4video/pyutils/dictutils.py",
+		"/C/Users/manny/AppData/Local/Temp/plot_grid_search_digits.py",
+		"/D/Dev/ML/stats/imbalanced-algorithms/rus.py",
+		"/D/Dev/ML/Books/DeepLearningBookCode-Volume1/Chapter02-Statistics/Statistics-Notebook.ipynb",
+		"/D/Dev/Medical/dialysis/audio4video/requirements.txt",
+		"/D/Dev/Medical/dialysis/audio4video/MTtest.py",
+		"/D/Dev/Medical/dialysis/audio4video/hyperparams.py",
+		"/D/Dev/Medical/dialysis/audio4video/audio.sublime-project",
+		"/D/Dev/Medical/dialysis/audio4video/testFeatures.py",
+		"/D/Dev/Medical/dialysis/audio4video/pyutils/testmt.py",
+		"/D/Dev/Medical/dialysis/audio4video/pyutils/mt.py",
+		"/C/Users/manny/Downloads/loadscores.py",
+		"/D/Dev/Medical/dialysis/audio4video/pyutils/folderiter.py",
+		"/D/Dev/Medical/dialysis/audio4video/setup-clean-macos.txt",
+		"/D/Dev/Medical/dialysis/audio4video/mne_features/mne_features/feature_extraction.py",
+		"/D/Dev/Medical/dialysis/audio4video/python27utils/plot_roc.py",
+		"/D/Dev/Medical/dialysis/audio4video/pyutils/checksum.py",
+		"/D/Dev/Medical/dialysis/audio4video/heartSound.py",
+		"/D/Dev/Medical/dialysis/audio4video/mne_features/mne_features/utils.py",
+		"/D/BWNC/GWBI/Notes/Slides/jsp1.html",
+		"/D/BWNC/GWBI/repos/pray/database/factories/UserFactory.php",
+		"/D/BWNC/GWBI/repos/pray/database/seeds/DatabaseSeeder.php",
+		"/D/BWNC/GWBI/repos/pray/database/migrations/2018_10_08_112334_add_currency_to_cm_dona_use_prices.php",
+		"/D/Dev/Medical/dialysis/audio4video/wavutil.py",
+		"/D/Dev/Medical/dialysis/audio4video/.gitignore",
+		"/D/Dev/Medical/dialysis/audio4video/pyutils/dirutils.py",
+		"/D/Dev/Medical/dialysis/audio4video/python27utils/checksum.py",
+		"/D/Dev/Medical/dialysis/audio4video/python27utils/__init__.py",
+		"/D/Dev/Medical/dialysis/audio4video/pyutils/__init__.py",
+		"/D/Dev/Medical/dialysis/audio4video/python27utils/testmt.py",
+		"/D/Dev/Medical/dialysis/audio4video/python27utils/bestviz.py",
+		"/D/Dev/Medical/dialysis/audio4video/roc.py",
+		"/D/Dev/Medical/dialysis/audio4video/math/stats/roc.py",
+		"/D/Dev/Medical/dialysis/audio4video/python27utils/folderiter.py",
+		"/D/Dev/Medical/dialysis/audio4video/testImblearn.py",
+		"/D/Dev/Medical/dialysis/audio4video/fft.py",
+		"/D/Dev/Medical/dialysis/audio4video/python27utils/dictutils.py",
+		"/D/Dev/Medical/dialysis/audio4video/imblearn/imblearn/metrics/_classification.py",
+		"/D/Dev/Medical/dialysis/audio4video/imblearn/examples/under-sampling/README.txt",
+		"/D/Dev/Medical/dialysis/audio4video/Cost_sensitive_boost/CalibratedAdaMEC_ExtendedVersion.ipynb",
+		"/D/Dev/Medical/dialysis/audio4video/output/GB_train_3s_full.log",
+		"/D/Dev/Medical/dialysis/audio4video/testenv/Lib/site-packages/sklearn/calibration.py",
+		"/D/Dev/Medical/dialysis/audio4video/win10_Miniconda.txt",
+		"/D/Dev/Medical/dialysis/audio4video/GridSearchCV.txt",
+		"/D/Dev/Medical/dialysis/audio4video/extractaudio.py",
+		"/D/Dev/Medical/dialysis/audio4video/Cost_sensitive_boost/CalibratedAdaMEC.py",
+		"/D/Dev/Medical/dialysis/audio4video/Cost_sensitive_boost/compare.py",
+		"/D/Dev/Medical/dialysis/audio4video/Cost-sensitive-boost/__init__.py",
+		"/D/Dev/Medical/dialysis/audio4video/setup.txt",
+		"/D/Dev/Medical/dialysis/audio4video/Matlab/Kidney/Functions/extractFeatures.m",
+		"/C/Users/manny/Downloads/plot_roc.py",
+		"/D/Dev/Medical/dialysis/audio4video/Matlab/Kidney/run_orig.m",
+		"/D/Dev/Medical/dialysis/audio4video/references.txt",
+		"/D/Dev/Medical/dialysis/audio4video/Matlab/Kidney/Functions/extractFeaturesCodegen.m",
+		"/D/Dev/Medical/dialysis/audio4video/mymfcc.py",
+		"/D/Dev/Medical/dialysis/audio4video/python_speech_features/sigproc.py",
+		"/D/Dev/Medical/dialysis/audio4video/Matlab/Kidney/Functions/classifyHeartSounds.m",
+		"/D/Dev/Medical/dialysis/audio4video/Matlab/Kidney/Functions/mfcc.m",
+		"/D/Dev/Medical/dialysis/audio4video/python_speech_features/python_speech_features/sigproc.py",
+		"/D/Dev/Medical/dialysis/audio4video/Matlab/Kidney/Functions/dominant_frequency_features.m",
+		"/D/Dev/Medical/dialysis/audio4video/python_speech_features/python_speech_features/base.py",
+		"/D/Dev/Medical/dialysis/audio4video/venv4audio/Lib/site-packages/matplotlib/animation.py",
+		"/D/Dev/dictionary/DICTOL_python/dictol/utils.py",
+		"/D/Dev/dictionary/DICTOL_python/demo.log",
+		"/D/Dev/Medical/dialysis/From Andy/script/c2m.m",
+		"/D/Dev/Medical/dialysis/.gitignore",
+		"/D/Dev/Audio/python_speech_features/python_speech_features/base.py",
+		"/D/Dev/Audio/python_speech_features/python_speech_features/sigproc.py",
+		"/D/Dev/ML/MyProjs/material-seg/material-seg.sublime-workspace",
+		"/D/Dev/Medical/dialysis/audio4video/data/test_data/training_3s/98post2_3.wav",
+		"/D/Dev/Medical/dialysis/audio4video/venv4audio/Lib/site-packages/python_speech_features/base.py",
+		"/D/Dev/Medical/dialysis/audio4video/venv4audio/Lib/ntpath.py",
+		"/D/Dev/Medical/dialysis/audio4video/venv4audio/Lib/posixpath.py",
+		"/D/Dev/Audio/audio4video/heartSound.py",
+		"/D/Dev/Audio/audio4video/setup.txt",
+		"/D/Dev/Audio/audio4video/fft.py",
+		"/D/Dev/Audio/audio4video/extractaudio.py",
+		"/C/Users/mannyk/Documents/BWNC/convert_namelist.py",
+		"/C/Users/mannyk/Documents/BWNC/convert_class2.py",
+		"/C/Users/mannyk/Documents/BWNC/ClassMembers_0722_google.csv",
+		"/C/Users/mannyk/Documents/BWNC/ClassMembers_0723.csv",
+		"/C/Users/mannyk/Documents/BWNC/ClassMembers_0722.csv",
+		"/C/Users/mannyk/Documents/BWNC/ClassMembers_0704_google.csv",
+		"/C/Users/mannyk/Documents/BWNC/ClassMembers_0704.csv",
+		"/C/Users/mannyk/Downloads/叔棟 Shen 沈.vcf",
+		"/C/Users/mannyk/Documents/BWNC/volunteers_google.csv",
+		"/C/Users/mannyk/Documents/BWNC/volunteers.csv",
+		"/C/Users/mannyk/Documents/BWNC/BizClass4 Placeholder.csv",
+		"/C/Users/mannyk/Documents/BWNC/google1.csv",
+		"/C/Users/mannyk/Documents/BWNC/BizClass4 sign up list.csv",
+		"/Z/ML/train-mat/tests/trainflowers.py",
+		"/C/Users/mannyk/Documents/BWNC/g1.csv",
+		"/Z/ML/tfresources/tensorpack/build/lib/tensorpack/callbacks/inference_runner.py",
+		"/Z/ML/tfresources/tensorpack/build/lib/tensorpack/input_source/input_source_base.py",
+		"/Z/ML/train-mat/tests/module.py",
+		"/Z/google (1).csv",
+		"/Z/ML/train-mat/module.py",
+		"/Z/ML/train-mat/mnist/mnist-convnet2.py",
+		"/Z/ML/train-mat/mnist/mnist-convnet.py",
+		"/Z/ML/train-mat/mnist.py",
+		"/Z/ML/train-mat/minc-inceptionv3.py",
+		"/Z/ML/train-mat/createbottleneck.py",
+		"/Z/ML/train-mat/inception-v3-ref/inception-graph-ops.txt",
+		"/Z/ML/train-mat/parse_vars.py",
+		"/Z/ML/train-mat/inception-v3-ref/inception-v3-variables-train-extracted.txt",
+		"/Z/ML/train-mat/tfutils/parse-vars.py",
+		"/Z/ML/train-mat/model.py",
+		"/Z/ML/train-mat/loadbottleneck.py",
+		"/Z/ML/train-mat/train.py",
+		"/Z/ML/train-mat/mincimg.py",
+		"/Z/ML/train-mat/tests/loadcheckpt.py",
+		"/Z/ML/train-mat/flowers_dataset.py",
+		"/Z/ML/tfresources/tensorpack/examples/DoReFa-Net/svhn-digit-dorefa.py",
+		"/Z/ML/tfresources/tensorpack/examples/basics/cifar-convnet.py",
+		"/Z/ML/tfexamples/tensorpack/tensorpack/callbacks/inference_runner.py",
+		"/Z/ML/tfexamples/tensorpack/build/lib/tensorpack/graph_builder/distributed.py",
+		"/Z/ML/tfexamples/tensorpack/examples/CTC-TIMIT/train-timit.py",
+		"/Z/ML/train-mat/mnist/mnist.py",
+		"/Z/ML/train-mat/.gitignore",
+		"/Z/ML/train-mat/logisticregression.py"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+			"*.py",
+			"*.m",
+			"*.py",
+			"*.m",
+			"*.py",
+			"*.*",
+			"*.py",
+			"*.*",
+			"*.py"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"selectFeatures",
+			"len",
+			"unique",
+			"k, v",
+			"enumerate",
+			"float32",
+			"deepcopy",
+			"Average precision-recall score",
+			"matplotlib",
+			"for i,",
+			"1,",
+			"args",
+			"verifyFeatures",
+			"datafolder",
+			"data folder",
+			"datasetpath()",
+			"plt.show",
+			"with",
+			"Pretty",
+			"label2str",
+			"staticmethod",
+			"dict()",
+			"staticmethod",
+			"crc",
+			"defaultdict",
+			"4",
+			"extractFeatures",
+			"extractFeaturesMT",
+			"delayed",
+			"featureCache",
+			"dumpChecksums",
+			"for",
+			"joblib",
+			"nonlocal",
+			"os.path",
+			"setter",
+			"os.path",
+			"direxist",
+			"folderiter",
+			"pyaudio",
+			"pyad=udio",
+			"extractMFCC",
+			"wavutil",
+			"pyaudio",
+			"kEnableImb",
+			"unique",
+			"count",
+			"showFeature",
+			"wavfile",
+			"playWavFile",
+			"pyaudio",
+			"cls_name",
+			"clf",
+			"100",
+			"showAccuracy",
+			"330",
+			"StratifiedKFold",
+			"cvp",
+			"split_training_testing",
+			"feature_table.class",
+			"histogram_signalEntropy",
+			"print",
+			"ndarray",
+			"extractFeaturesCodegen",
+			"mfcc.",
+			"float32",
+			"dominant_frequency_features",
+			"plotFourierSignal",
+			"False",
+			"wavarr",
+			"ifile",
+			"samplingrate",
+			"Failed to love",
+			"keys",
+			"defaultdict",
+			"encode",
+			"graph-ops.txt",
+			"hub",
+			"Logits",
+			"pprint",
+			"dumpcachemgr",
+			"dump_ops",
+			"bottlenecks",
+			"model.",
+			"import",
+			"model.",
+			"import model",
+			" PrefetchDataZMQ",
+			"_setup",
+			"QueueInputTrainer",
+			"QueueInput",
+			"SimpleTrainer",
+			"QueueInput",
+			"RNGDataFlow",
+			"getsubset_by_tag",
+			"__all__",
+			"import abc",
+			"os.path.split",
+			"global_step",
+			"run_unittest",
+			"staticmethod",
+			"static_method",
+			"collection",
+			"variable_collection",
+			"logit",
+			"Logit",
+			"variable",
+			"image_feature_vector",
+			"inception-v3-variables",
+			"dumpgraph",
+			"inception-graph-ops",
+			"dtype",
+			"set_random_seed",
+			"boilerplate",
+			"bolierplate",
+			"BatchQueueInput",
+			"run_maptest",
+			".split",
+			"725 batches",
+			"723 batches",
+			"/12",
+			"63 batches",
+			"725 batches",
+			"'image/class/label'",
+			"minc_io",
+			"model",
+			"ModelDesc",
+			"boilerplate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"763 batches",
+			"/20",
+			"725 batches",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "processWav.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2829,
+								2829
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1215.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "heartSound.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								451,
+								463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "train.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								795,
+								795
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "testModel.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								971,
+								971
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "hyperparams.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1971,
+								1971
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1169.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "kevin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1049,
+								1049
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 42.4
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 34.0
+	},
+	"pinned_build_system": "",
+	"project": "audio.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

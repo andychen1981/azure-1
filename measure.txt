@@ -1,0 +1,1 @@
+1	8/30/19	OK	OK2	8/30/19	No issue	No issue3	8/31/19	No issue	No issue4	8/31/19	No issue	No issue5	9/1/19	No issue	No issue6	9/1/19	No issue	No issue7	9/2/19	See Docrtor	See Docrtor8	9/2/19	No issue	No issue9	9/3/19	No issue	No issue10	9/4/19	See Docrtor	See Docrtor

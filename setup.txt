@@ -1,0 +1,50 @@
+virtualenv --system-site-packages venv4audio
+venv4audio\Scripts\activate
+pip install scikit-video
+pip show scikit-video
+pip install scikit-sound
+pip show scikit-sound
+
+
+ffmpgeg (not needed yet)
+------------------------
+https://ffmpeg.zeranoe.com/builds/
+C:\Utils\ffmpeg-20190129-2e2b44b-win64-static\bin
+
+#Anaconda
+#pip install ffmpy
+pip install python_speech_features
+pip install parse
+pip install xgboost
+OR
+pip install -r requirements.txt
+
+#on OSX
+brew install portaudio		#pyaudio need this on OSX
+pip install numpy
+pip install scipy
+pip install matplotlib
+
+pip install pyaudio
+pip install xgboost
+
+pip install dictol
+
+data
+----
+junction test_data "..\..\From Andy\test data"
+cd data\test_data
+junction "HD Training Data" "..\..\HD Training Data"
+junction python_speech_features d:\Dev\Audio\python_speech_features\python_speech_features
+junction Kidney d:\Dev\Medical\Kidney
+
+#ML and data science opensource packages:
+junction Cost-sensitive-boost d:\Dev\ML\Cost-sensitive-Boosting-Tutorial
+
+Anaconda (venv4conda)
+=====================
+conda create --name venv4conda clone py3
+conda install scikit-learn
+conda install -c conda-forge parse
+#conda install xgboost
+pip install xgboost

@@ -1,0 +1,17 @@
+ffmpeg -i /PATH/TO/INPUT.mp4 /PATH/TO/OUTPUT.mp3
+http://ffmpy.readthedocs.io/en/latest/examples.html
+
+http://howto-pages.org/ffmpeg/
+
+Speech Recognition in Python
+----------------------------
+https://github.com/Uberi/speech_recognition
+
+CMU Sphinx
+----------
+https://cmusphinx.github.io/wiki/
+
+PyAudio
+-------
+http://www.portaudio.com/
+http://people.csail.mit.edu/hubert/pyaudio/docs/

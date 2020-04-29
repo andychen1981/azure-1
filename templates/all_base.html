@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Above Care Patient Login</title>
+  <!-- Bootstrap -->
+  <!-- <link href="../static/bootstrap.min.css" rel="stylesheet"> Original -->
+  <link href="../static/bootstrap.min.css" rel="stylesheet" media="screen">
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Plugins -->
+  <link rel="stylesheet" type="text/css" href="../static/magnific-popup.css">
+  <link href="../static/prettify.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../static/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="../static/owl.theme.css">
+  <!-- Theme -->
+  <link rel="stylesheet" type="text/css" href="../static/carousel-animate.css">
+  <link rel="stylesheet" type="text/css" href="../static/theme.css">
+</head>
+
+<body  class="body-nav-fixed-menu-top">
+  <div class="wrapper-body">
+  <div class="container">
+
+      <!-- child template -->
+      {% block content %}{% endblock %}
+
+      <!-- errors -->
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}</p>
+      {% endif %}
+
+      <!-- messages -->
+      {% for message in get_flashed_messages() %}
+        {{ message }}
+      {% endfor %}
+  </div>
+  
+    
+
+    <!-- NAVBAR -->
+    <!--===============================================================-->
+    <div id="header">
+      <nav id="nav" class="navbar navbar-default navbar-fixed-top">
+        <div class="menu-top menu-top-inverse">
+
+        <!-- Top Header -->
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-5 hidden-xs">
+                <a class="title-menu-top display-inline-block" href="mailto:support@example.com">contact@above-care.com</a>
+              </div>
+              <div class="pull-right">
+                  <div class="dropdown dropdown-login pull-left">
+                    <button onclick="window.location.href = '/login'" class="btn-menu-top" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Log in</button>                    
+                    <div class="dropdown-menu dropdown-menu-right stop-prop" role="menu">
+                    </div>
+                  </div>                
+                </div>
+                <div class="list-inline social-icons-menu-top pull-right">
+                  <a href="coming.html" class="social-hover-v1 a-facebook"></a>  
+                  <a href="coming.html" class="social-hover-v1 a-twitter"></a>
+                  <a href="coming.html" class="social-hover-v1 a-linkedin"></a>  
+                  <a href="coming.html" class="social-hover-v1 a-youtube"></a>   
+                </div>          
+            </div>
+          </div>
+        </div>
+        <!-- End of Top Header -->
+
+        <!-- Menu Nav -->
+        <!--===============================================================-->
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img style="width: 60px; height: 60px; margin-top: 10px; class="img-responsive" src="../static/logo.jpg" alt="theme-img"></a>
+          </div>
+
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-center">
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Measure</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">                                
+                  <li>
+                    <a href="index.html">Now</a>   
+                  </li>                 
+                </ul> 
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Past Reading</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">             
+                  <li>
+                    <a href="/read_p7">Past 7 Days</a></li>           
+                  </li>
+                  <li>
+                    <a href="/read_p30">Past 30 Days</a></li>           
+                  </li>  
+                  <li>
+                    <a href="/read_p12">Past 12 Months</a></li>           
+                  </li>  
+                  <li>
+                    <a href="/read_trend">Trend Chart</a></li>           
+                  </li>                                           
+                </ul> 
+              </li>
+              
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Treatment Record</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">             
+                  <li>
+                    <a href="/treat_upcoming">Upcoming Treatment<span class="badge red">{{cnt_upcoming}}</span></a></li>  
+                  </li>  
+                  <li>
+                    <a href="/treat_last">Last Treatment</a></li>           
+                  </li>
+                  <li>
+                    <a href="/treat_p12">Past 12 Months<span class="badge red">{{cnt_p12}}</span></a></li>          
+                  </li>
+                  <li>
+                    <a href="/treat_all">All Treatments<span class="badge red">{{cnt_all}}</span></a></li>           
+                  </li>  
+                </ul> 
+              </li>  
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Providers Contact</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">             
+                  <li>
+                    <a href="/cont_hd">HD Clinic</a></li>         
+                  </li> 
+
+                  <li>
+                    <a href="/cont_sur">Surgeon</a></li>          
+                  </li>
+                  <li>
+                    <a href="/cont_hos">Hospital</a></li>           
+                  </li>    
+                </ul> 
+              </li>  
+              
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Message</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">             
+                  <li>
+                    <a href="/cont_hd">HD Clinic<span class="badge red">{{cnt_hd}}</span></a></li>               
+                  </li>  
+                  <li>
+                    <a href="/cont_sur">Surgeon<span class="badge red">{{cnt_sur}}</span></a></li>           
+                  </li>
+                  <li>
+                    <a href="/cont_hos">Hospital<span class="badge red">{{cnt_hos}}</span></a></li>           
+                  </li>    
+                </ul> 
+              </li>  
+              
+            </ul>
+          </div><!-- End of Menu Nav -->
+
+        </div>
+      </nav>
+    </div>
+    <!-- NAVBAR END -->
+
+    <!-- SECTION -->
+    
+    <!-- FORM INPUT GROUP ADD ON -->
+    <!--===============================================================-->
+
+    <!-- SECTION FOOTER -->
+    <!--===============================================================-->
+    
+    <!-- END OF SECTION FOOTER -->
+
+    <!--SECTION FOOTER BOTTOM -->
+    <!--===============================================================-->
+       
+    </div>
+  </div>
+  
+</body>
+</html>
+

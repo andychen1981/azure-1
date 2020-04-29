@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": [".vs", "__pycache__", "imblearn", "HD Training Data", "Matlab\\Kidney\\backup", "venv4audio"],
+		},
+		{
+			"path": "D:\\Dev\\Medical\\dialysis\\From Andy\\script"
+		},
+		{
+			"path": "D:\\Dev\\Medical\\dialysis\\From Andy\\qrs_test"
+		}
+	]
+}

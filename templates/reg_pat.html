@@ -1,0 +1,139 @@
+{% extends "reg_base.html" %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<body  class="body-nav-fixed-menu-top">
+
+  <div class="wrapper-body">
+  
+    <!-- SECTION -->
+    <!--===============================================================-->
+    <BR><BR>
+    <div class="container">
+      <div class="row">
+        
+        <!-- SIDE NAV - WAS ACCORDION -->
+               
+        <!-- CONTENT COLUMN -->
+        <div class="col-md-9"> 
+
+          <!-- FORM WITH STATIC TEXT -->
+          <div class="row row-code">
+            <div class="col-md-12">
+              <div class="panel panel-primary">
+
+                <div class="panel-heading">
+                  <h3 class="panel-title">Patient Information</h3>
+                </div>
+                <div class="panel-body">
+                  <form action="" method="post" class="form-horizontal">
+                    <div class="form-group">
+                      <div class="form-group">
+                      
+                    </div>
+                      <label for="inputEmail" class="control-label col-sm-2">Date</label>
+                        <div class="col-sm-10">
+                          <!-- <p class="form-control-static"><new Date().toLocaleDateString()></p> -->
+                          <script> document.write(new Date().toLocaleDateString()); </script>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="text" class="control-label col-sm-2">Login Name</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Login Name" name="uname" value="{{request.form.uname}}">   
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="inputEmail" class="control-label col-sm-2">Email</label>
+                        <div class="col-sm-10">
+                          <input type="inputEmail" placeholder="Email" name="email" value="{{request.form.email}}">   
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="password" class="control-label col-sm-2">Password</label>
+                        <div class="col-sm-10">
+                          <input type="password" placeholder="Password" name="pwd" value="{{request.form.pwd}}">   
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="password" class="control-label col-sm-2">Confirm Password</label>
+                        <div class="col-sm-10">
+                          <input type="password" placeholder="Repeat Password" name="pwd2" value="{{request.form.pwd2}}">   
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="text" class="control-label col-sm-2">Your Full Name</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Full Name" name="name" value="{{request.form.name}}">   
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="inputEmail" class="control-label col-sm-2">HD Clinic</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="HD Clinic" name="hd" value="{{request.form.hd}}">     
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="inputEmail" class="control-label col-sm-2">Your Kidney Doctor</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Kidney Doctor's Name" name="nephro" value="{{request.form.nephro}}">     
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="inputEmail" class="control-label col-sm-2">Your Cardio Doctor</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Cardiologist Name" name="sur" value="{{request.form.sur}}">     
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="inputEmail" class="control-label col-sm-2">Insurance</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Insurance" name="insur" value="{{request.form.insur}}">     
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="inputEmail" class="control-label col-sm-2">Phone No</label>
+                        <div class="col-sm-10">
+                          <input type="text" placeholder="Phone No" name="phone" value="{{request.form.phone}}">     
+                        </div>
+                      </div>
+                    
+                      <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                          <button type="submit" class="btn btn-primary">Register</button>
+                        </div>
+                      </div>
+                  </form>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+         <!-- FORM ELEMENTS GRID -->        
+        
+        </div>
+      </div>
+    </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../static/bootstrap.min.js"></script>
+  <script src="../static/page/theme.js"></script>
+  <script src="../static/prettify.js"></script>
+  
+</body>
+
+</html>
+{% endblock %}

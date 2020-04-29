@@ -1,0 +1,9 @@
+Dataset Handling
+----------------
+https://towardsdatascience.com/dealing-with-imbalanced-classes-in-machine-learning-d43d6fa19d2
+SMOTE: https://www.jair.org/index.php/jair/article/view/10302
+
+Bagging/Boosting + Ensemble
+---------------------------
+https://medium.com/@rrfd/boosting-bagging-and-stacking-ensemble-methods-with-sklearn-and-mlens-a455c0c982de
+ML-Ensemble: http://ml-ensemble.com/

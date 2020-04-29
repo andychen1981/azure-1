@@ -1,0 +1,36 @@
+SQLite
+
+Insert:
+	insert into data_table (first_name, last_name, city, wave) values ('John', 'Major', 'Cupertino','contact.jpg')
+
+	insert into data_table (first_name, last_name, mea_date, disp_date, time_1, dev_id, qr_code, loc, res, prob) values ('Jimmy', 'Page','20191125100800','2019-11-25','10:08:00','003004802805','00000001','LO','Normal','50')
+	
+	(from CRUD) INSERT INTO data_table (first_name,last_name,msg) VALUES (?,?,?) ''', (first_name,last_name,msg) )
+  
+
+Update:
+	update data_table set wave='cardio.jpg' where (last_name = 'doe')
+	
+	(from CRUD) UPDATE data_table set first_name=?, last_name=?, msg=? WHERE first_name=? and last_name=? and msg=?", (first_name,last_name,msg,old_first_name,old_last_name,old_msg))
+
+
+Delete:
+	(from CRUD) DELETE FROM data_table where first_name = ? and last_name = ?''', (fname,lname) )
+
+Select:
+	(from CRUD) SELECT * FROM data_table where first_name = ? and last_name = ? and msg = ? and pulse = ? and fft = ? and trend = ?''', (efname,elname,emsg,epulse,efft,etrend))
+
+Heroku
+
+	Select
+	c.execute('select * from data_table')
+    results = [dict(first_name=row[0],last_name=row[1],mea_date=row[2],disp_date=row[3],time_1=row[4],dev_id=row[5], qr_code=row[6],loc=row[7],res=row[8],prob=row[9]) for row in c.fetchall()]
+
+    Keep: values ('Jimmy','Page','20191125100800','2019-11-25','10:08:00','003004802805','00000001','LO','Normal','50') for row in c.fetchall()]
+
+	Insert
+		c.execute("BEGIN TRANSACTION;")
+        c.execute("INSERT OR REPLACE INTO data_table (first_name, last_name, mea_date, disp_date, time_1, dev_id, qr_code, loc, res, prob) VALUES (?,?,?,?,?,?,?,?,?,?)",(request.form['first_name'], request.form['last_name'], request.form['mea_date'], request.form['disp_date'], request.form['time_1'], request.form['dev_id'], request.form['qr_code'], request.form['loc'], request.form['res'], request.form['prob']))
+        c.execute("COMMIT TRANSACTION;")
+        c.close
+        

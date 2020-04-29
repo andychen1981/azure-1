@@ -1,0 +1,91 @@
+# Matplotlib midule not found
+pip3 install matplotlib==3.0.3
+pip3 install matplotlib==3.1.2 # latest version
+
+# Install Heroku
+$ brew tap heroku/brew && brew install heroku
+env
+$ pip install Flask gunicorn
+$ pip install Flask gunicorn --upgrade
+
+
+## Chapter 10 (Configuration)
+$ ipython
+	1 from app import app
+	2 print (app.config) 
+$ export APP_SETTINGS="config.DevelopmentConfig" ## After setting the os.environ()
+
+$ export DATABASE_URL='sqlite:///posts.db' ## Do this before SQLALCHEMY_DATABSE_URL = os.environ['DATABASE_URL']
+
+$ ipython ## Check the environ
+	1 from app import app
+	2 print (app.config) 
+	3 exit
+
+
+## Chapter 11 (Secret Key)
+$ python
+	1 import os
+	2 os.urandom(24)
+
+
+## Chapter 12 (Heroku Configuration Settings)
+$ git remote -v ## Check heroku repo - heroku Fetch and Push
+$ heroku config:set APP_SETTINGS=config.ProductionConfig --remote heroku
+$ heroku addons:add heroku-postgresqil:dev
+$ heroku pg:promote HEROKU_POSTGRESQL_RED_URL
+
+## Fix setup tools issues
+$ git checkout -b tempbranch
+$ git push heroku tempbranch
+
+# DB is created by db_create.py, SQLITE's DB has no effect!!!
+
+
+## Chapter 13 (Heroku Postgres Setup)
+$ heroku create test-myhero
+$ heroku addons:add heroku-postgresql:hobby-dev --app test-myhero
+$ heroku config --app test-myhero | grep HEROKU_POSTGRESQL
+$ heroku pg:promote HEROKU_POSTGRESQL_CHARCOAL_URL --app test-myhero
+$ heroku open # check if Heroku is connected
+$ pip install psycorpg2
+
+pip freeze > requirements.txt
+git add .
+git commit -am "added psycopg2"
+git push heroku master
+
+heroku run python db_create.py
+heroku run python # interactive python
+>>> from app import db
+>>> from models import BlogPost
+>>> db.session.add(BlogPost("Hi", "this is my first post on heroku."))
+>>> db.session.commit()
+
+git init
+git add .
+git commit -am "added Psyco"
+
+heroku run python db_create.py
+
+
+## Chapter 14 (Local PostgreSQL Setup)
+pip freeze vs. requirements.txt # Be consistent
+$ psql # check if PostGres is running
+	check config.py for URI
+$ python config.py # shows which DB is used (pring command in config.py)
+$ export DATABASE_URL="postgresql://localhost/discover_flask_dev"
+$ psql
+# CREATE DATABASE discover_flask_dev
+$ python db_create.py
+$ python config.py
+$ python app.py # check results
+
+
+## Chapter 15 (Managing Database Migrations)
+$ pip install flask-migrate
+pip freeze > requirements.txt
+python manage.py db init
+
+
+
